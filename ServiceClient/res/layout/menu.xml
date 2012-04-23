@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+	       	<TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:text="Friend Zone"
+	        android:textStyle="bold"
+	        android:textColor="#1589FF"
+	        android:textSize="30dp"
+	        android:gravity="center" />
+	    
+	       	<TextView
+	       	android:id="@+id/cstatus"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/serno"
+	        android:textColor="#FFFF0000"
+	        android:gravity="center" />
+	       	
+    	</LinearLayout>
+    	
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	       	
+	        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="UserName: "
+	        android:gravity="left" />
+	       		       	
+	        <EditText
+	        android:id="@+id/editname"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:text="Unknow">
+			</EditText>
+			
+		</LinearLayout>
+		
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center" >
+	        
+	    	<Button
+	        android:id="@+id/button_change"
+	        android:layout_width="wrap_content"
+	        android:layout_height="35dp"
+	        android:text="@string/changename" />
+	       		       	
+        </LinearLayout>
+        
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal"
+	    android:gravity="bottom" >
+	    	
+           <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/fconected"
+	        android:gravity="center"
+	        android:paddingRight="50dp" />
+           
+            <TextView
+ 			android:id="@+id/loct"               
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/nodisp"
+	        android:textColor="#FFFF0000"
+	        android:gravity="right" />
+           
+        </LinearLayout>
+        
+        <ScrollView android:id="@+id/scroll1"
+    	xmlns:android="http://schemas.android.com/apk/res/android"	 
+	    android:layout_width="fill_parent"
+	    android:layout_height="250dp"
+	    android:background="#ffb5eaaa">
+           
+	        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/lfriends"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" >
+	    
+ 
+	        
+        	</LinearLayout>
+        </ScrollView>
+        
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="10dp"
+	    android:gravity="center" >
+	    </LinearLayout>
+	    
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center" >
+	        
+		    <Button
+	        android:id="@+id/button_exit"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/exit1" />
+		    
+	    </LinearLayout>
+	    
+
+    
+</LinearLayout>

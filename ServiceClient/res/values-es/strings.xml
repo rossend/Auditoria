@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <string name="hello">Hello Broadcast Message Service 3!\n</string>
+    <string name="app_name">Martinez Service Client</string>
+        
+	<string name="ErrorOnclick">Error in OnClick Listener, View not known</string>
+	<string name="ServiceStarted">Servicio de Broadcast Message arrancado.</string>
+	<string name="ServiceStopped">Servicio de Broadcast Message parado.</string>
+	<string name="ServiceConnected">Conectado al servicio de Broadcast Message.</string>   
+	<string name="ServiceDisconnected">Desconectado del servicio de Broadcast Message.</string>   
+	    
+	<string name="ServiceLabel">Broadcast Message Service</string>
+	
+	<string name="ServiceActivityMsg"> Actividad para la gestión del servicio de BroadcastMessages.
+	    Puedes forzar parar el servicio desde esta actividad, pero la aplicaciones que los están utilizando 
+	    dejarán de funcionar.</string>
+	<string name="StartServiceButton">Arrancar Servicio</string>
+	<string name="StopServiceButton">Parar Servicio</string>
+	
+	<string name="service_activity_name">Servicio de Broadcast Message </string>
+	
+	    
+	    
+	
+	<string name="join">***se ha conectado.***</string>
+	<string name="exit">***se ha desconectado.***</string>
+	
+	<string name="disp">*GPS Disponible</string>
+	<string name="nodisp">GPS No Disponible</string>
+	
+	<string name="serno">Servicio Desconectado</string>
+	<string name="seryes">Servicio Conectado</string>
+	
+	<string name="userexist">Ya existe este Usuario</string>
+	<string name="uchange">Nombre usuario cambiado</string>
+	<string name="changename">Cambiar Nombre</string>
+	
+	<string name="ret">Volver</string>
+	
+	<string name="fconected">Amigos Conectados: </string>
+	
+	<string name="exit1">Salir</string>
+	
+	<string name="sendmsg">Enviar</string>
+
+</resources>

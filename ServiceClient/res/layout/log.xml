@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Logs"
+	        android:textStyle="bold"
+	        android:textSize="20dp"
+	        android:gravity="center" />
+    
+    	<ScrollView android:id="@+id/scrollog"
+    	xmlns:android="http://schemas.android.com/apk/res/android"	 
+	    android:layout_width="fill_parent"
+	    android:layout_height="400dp"
+	    android:background="#ffb5eaaa">
+    
+	        <TextView android:id="@+id/textlog"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:textStyle="bold"
+	        android:textSize="10dp"
+	        android:background="#ffb5eaaa"
+	        android:textColor="#FF000000"/>
+        
+        </ScrollView>
+        
+    	    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="8dp"
+    android:orientation="vertical" >
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center" >
+	        
+        <Button
+        android:id="@+id/button_ret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ret" />
+	</LinearLayout>    
+</LinearLayout>

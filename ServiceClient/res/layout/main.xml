@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="280dp"
+        android:text="@string/hello"
+        android:textStyle="bold"
+        android:textColor="#ff3333ff"
+        android:background="#ff99ffcc" />
+    <RadioGroup
+ 	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <RadioButton android:id="@+id/radio_chat"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:text="Chat" />
+	    <RadioButton android:id="@+id/radio_Location"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content" 
+	          android:text="Location" />
+	    <RadioButton android:id="@+id/radio_AddFriend"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:text="Friend" />
+	</RadioGroup>
+	<Button
+        android:id="@+id/button_send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message" />
+	<Button
+        android:id="@+id/button_connect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect" />
+	
+</LinearLayout>
